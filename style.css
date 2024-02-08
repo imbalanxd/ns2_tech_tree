@@ -1,0 +1,56 @@
+	#header {
+		width: 1125px; height: 100px; overflow: hidden;
+		position: relative; margin-left:auto;margin-right:auto;
+	}
+	#main {
+		width: 1125px; height: 720px; 
+		position: relative; margin-left:auto;margin-right:auto;
+	}
+	.node {
+		position: absolute;
+	}
+	.spinImage{
+		position: absolute;
+		overflow: visible;
+	}
+
+	.spinBoxContainer{
+		position: relative;
+		overflow: hidden;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.spinnerContainer{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+	}
+	.spinner{
+		position: absolute;
+	}
+	.cover{
+		width: 242px;
+		height: 86px;
+		left:42%;
+		top: 20%;
+		position:absolute;
+		background-size: 100% 100%;
+	}
+	.progressUnit{
+		position:absolute;
+	}
+	.infoslider{
+		position:absolute;
+		z-index : 20;
+		width: 0; 
+		height: 0;
+		overflow: hidden;
+		background-size: 100% 100%;
+	}
+	.labelText{
+		color: #ebfffb;
+		position: relative;
+		font-family:"Agency FB",Georgia,Monospace;
+		font-size:1.50em;
+	}

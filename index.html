@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style ="width: 100%; height 100%; overflow: display">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="techTree.js"></script>
+<script src="techNode.js"></script>
+<script src="treeLine.js"></script>
+<script src="spinBox.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+<head>
+
+	</head>
+
+<body style ="width: 100%; height 100%; overflow: display ; background: black url(image/background.jpg) top center no-repeat;">
+	<div id="header"></div>
+	<script type = "text/javascript">
+	tree = new techTree();
+	tree.init();
+
+	var spinner;
+	spinner = new spinBox($('#header'), 90, 30, 6);
+
+	var legend = $("<img src = 'image/UI/legend.png' style = 'float: right; position: relative;'></img>");
+	legend.appendTo($('#header'));
+	</script>
+	</body>
+</html>
